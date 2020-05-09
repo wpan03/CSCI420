@@ -1,0 +1,40 @@
+<style>
+ /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Lower text */
+.lower-text {
+  position: absolute;
+  font-size: xxx-large;
+  bottom: 8px;
+  left: 10%;
+}
+
+/* Upper text */
+.upper-text {
+  position: absolute;
+  font-size: xxx-large;
+  top: 8px;
+  left: 10%;
+}
+
+/* Center text */
+.center-text {
+  position: absolute;
+  font-size: xxx-large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+</style>
+ <div class="container">
+  <img src="image.jpg" alt="Image" style="width:50%;">
+  <div class="upper-text">Upper Text</div>
+  <div class="center-text">Center Text</div>
+  <div class="lower-text">Lower Text</div>
+</div> 
