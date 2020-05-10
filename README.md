@@ -1,2 +1,1 @@
-# CSCI420
-Store my codes for CSCI420 in WM.
+Store some data and codes I wrote in Spring 2020 semester in wm.
